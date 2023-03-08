@@ -1,4 +1,4 @@
-# PyQt 복습
+# PyQt 복습 - 직접 디자인 코딩 
 import sys
 from PyQt5.QtWidgets import *
 
@@ -8,23 +8,23 @@ class qtApp(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.lblMessage = QLabel('메세지 : ', self)
-        self.lblMessage.setGeometry(10, 10, 300, 50)
+        self.lblMessage = QLabel('메세지: ', self)
+        self.lblMessage.setGeometry(10, 5, 300, 50)
 
-        btnOk = QPushButton('OK', self)
-        btnOk.setGeometry(280, 250, 100, 40)
-        # PyQt 이벤트(시그널) -> 이벤트핸들러(슬롯)
-        btnOk.clicked.connect(self.btnOk_clicked)
+        btnOK = QPushButton('OK', self)
+        btnOK.setGeometry(280, 250, 100, 40)
+        # PyQt에서 이벤트를 시그널이라고 부름, 이벤트를 처리하는것을 슬롯이라 부름 
+        btnOK.clicked.connect(self.btnOK_clicked) 
 
         self.setGeometry(300, 200, 400, 300)
-        self.setWindowTitle('복습PyQt')
+        self.setWindowTitle('복습')
         self.show()
-    
-    def btnOk_clicked(self):
-        self.lblMessage.clear()
-        self.lblMessage.setText('메세지 : OK!!!')
 
-if __name__ == '__main__':
+    def btnOK_clicked(self):
+        self.lblMessage.clear()
+        self.lblMessage.setText('메세지: OK!!')
+
+if __name__ == '__main__' :
     app = QApplication(sys.argv)
-    ex = qtApp()
+    ex = qtApp()     # 지난번에는 MyApp
     sys.exit(app.exec_())

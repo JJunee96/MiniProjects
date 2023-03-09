@@ -14,6 +14,12 @@
 ![네이버뉴스앱](https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/naver_news2.png)
 -->
 <img src="https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/naver_news2.png" width="789" />
+
+- Naver API 영화검색 앱 만들기
+  - 사용 기술 동일
+
+
+
 ## DB연동 GUI 개발 학습
 
 ## 미니프로젝트 실습

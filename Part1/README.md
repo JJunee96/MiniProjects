@@ -21,7 +21,7 @@
   - PyQt5 / Qt Designer
   - urllib.request 이미지다운로드 사용 *
 
-<img src = "https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Part1/studyPyQt/naver_movie.png" width = "789">
+<img src = "https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/naver_movie.png" width = "789">
 
 
 ## DB연동 GUI 개발 학습

@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>640</width>
-    <height>480</height>
+    <width>600</width>
+    <height>400</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>600</width>
+    <height>400</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -19,7 +31,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>621</width>
+      <width>581</width>
       <height>121</height>
      </rect>
     </property>
@@ -142,8 +154,8 @@
        <widget class="QPushButton" name="btnNew">
         <property name="geometry">
          <rect>
-          <x>460</x>
-          <y>92</y>
+          <x>340</x>
+          <y>88</y>
           <width>75</width>
           <height>23</height>
          </rect>
@@ -155,14 +167,31 @@
        <widget class="QPushButton" name="btnSave">
         <property name="geometry">
          <rect>
-          <x>540</x>
-          <y>92</y>
+          <x>420</x>
+          <y>88</y>
           <width>75</width>
           <height>23</height>
          </rect>
         </property>
         <property name="text">
          <string>저장</string>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="btnDel">
+        <property name="geometry">
+         <rect>
+          <x>500</x>
+          <y>88</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color:rgb(255, 50, 50);
+color:rgb(255, 255, 255);</string>
+        </property>
+        <property name="text">
+         <string>삭제</string>
         </property>
        </widget>
       </widget>
@@ -174,8 +203,8 @@
      <rect>
       <x>10</x>
       <y>140</y>
-      <width>621</width>
-      <height>301</height>
+      <width>581</width>
+      <height>231</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">

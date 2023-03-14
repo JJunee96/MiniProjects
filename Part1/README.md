@@ -50,4 +50,11 @@
 
 ![컴퓨터정보](https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/comInfo.png)
 
+- TTS(Text To Speech)
+  - gtts 모듈
+  - playsound 모듈
+
+- 암호해제 프로그램
+  - itertools, zipfile 기본모듈
+
 ## 미니프로젝트 실습

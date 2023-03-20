@@ -68,6 +68,8 @@
 - 게임만들기 - DinoRun
   - PyGame
 
+<img src="https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/PyGame1.png" width="780" />
+
 <img src="https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/PyGame.png" width="780" />
 
 ## 미니프로젝트 실습

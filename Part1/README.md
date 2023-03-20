@@ -82,5 +82,11 @@
 
 <img src="https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/folium.png" width="780" />
 
+- 계산기앱
+  - PyQt
+  - 16개 signal을 1개의 slot 함수로 처리
+
+<img src="https://raw.githubusercontent.com/JJunee96/MiniProjects/main/Images/calculator.png" width="250" />
+
 ## 미니프로젝트 실습
 - 테스트앱 만들기

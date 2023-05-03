@@ -5,6 +5,14 @@ VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BogusTestApp", "BogusTestApp\BogusTestApp.csproj", "{AAE48430-12A7-4C0C-A7C1-BAB6745294D8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQTT Publisher", "MQTT Publisher", "{12C143F8-F9B7-451D-BF85-2DFFE447223C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MQTT Subscriber", "MQTT Subscriber", "{A27EB481-D268-47E0-B450-07CFBC79D075}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FakeIotDeviceApp", "FakeIotDeviceApp\FakeIotDeviceApp.csproj", "{DD042A20-2E60-4EEE-A9CF-C65645A89CBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test용", "Test용", "{127CFE29-F9B8-405B-9291-7D1304E75F63}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +23,17 @@ Global
 		{AAE48430-12A7-4C0C-A7C1-BAB6745294D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AAE48430-12A7-4C0C-A7C1-BAB6745294D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AAE48430-12A7-4C0C-A7C1-BAB6745294D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD042A20-2E60-4EEE-A9CF-C65645A89CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD042A20-2E60-4EEE-A9CF-C65645A89CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD042A20-2E60-4EEE-A9CF-C65645A89CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD042A20-2E60-4EEE-A9CF-C65645A89CBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAE48430-12A7-4C0C-A7C1-BAB6745294D8} = {127CFE29-F9B8-405B-9291-7D1304E75F63}
+		{DD042A20-2E60-4EEE-A9CF-C65645A89CBE} = {12C143F8-F9B7-451D-BF85-2DFFE447223C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9E1E396-BC59-4516-8D38-1DD9E523A527}

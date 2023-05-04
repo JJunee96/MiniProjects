@@ -29,6 +29,12 @@
             <Button x:Name="BtnConnect" Content="Connect" Margin="5"
                     Style="{StaticResource MahApps.Styles.Button.Square.Accent}" Click="BtnConnect_Click"/>
         </StackPanel>
-        <RichTextBox Grid.Row="1" x:Name="RtbLog" Margin="10" VerticalScrollBarVisibility="Visible"/>
+        <RichTextBox Grid.Row="1" x:Name="RtbLog" Margin="10" VerticalScrollBarVisibility="Visible">
+            <RichTextBox.Resources>
+                <Style TargetType="{x:Type Paragraph}">
+                    <Setter Property="Margin" Value="0" />
+                </Style>
+            </RichTextBox.Resources>
+        </RichTextBox>
     </Grid>
 </mah:MetroWindow>

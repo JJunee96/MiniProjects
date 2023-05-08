@@ -113,5 +113,6 @@ namespace FakeIotDeviceApp
                 MqttThread.Abort();
             }
         }
+        
     }
 }

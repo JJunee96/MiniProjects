@@ -11,3 +11,6 @@
    - DB 데이터 바인딩
    - LiveCharts
    - OxyChart
+   
+- SmartHome 시스템 문제점
+	- 실행 후 ㄴ
